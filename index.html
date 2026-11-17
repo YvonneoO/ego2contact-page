@@ -290,7 +290,7 @@ footer{padding:34px 0 50px;color:var(--mute);font-size:13.5px;border-top:1px sol
 <section id="robot" class="wrap">
   <h2>Adapting the predictor to robot hands</h2>
   <div class="rule"></div>
-  <p class="lead">Ground-truth-tactile policies are rolled out in Isaac Gym to collect paired RGB and rigid-body contact forces. Fine-tuning on 8,741 clips from 2,258 episodes raises grid contact IoU on held-out robot episodes from 0.008 (human-trained checkpoint) to 0.476, with better contact placement than the adapted TouchAnything baseline.</p>
+  <p class="lead">Ground-truth-tactile policies are rolled out in Isaac Gym to collect paired RGB and rigid-body contact forces.</p>
   <div class="tbl card"><table>
     <caption>Robot tactile prediction after adaptation to simulation (held-out episodes).</caption>
     <thead><tr><th>Method</th><th>C.IoU ↑</th><th>V.IoU ↑</th><th>MAE ↓</th><th>T.Acc ↑</th><th>Link C.IoU ↑</th><th>Link CoP ↓</th></tr></thead>
